@@ -1,0 +1,112 @@
+/* Paleta de colores:
+    Titulo principal: #6b1616
+    Titulo de perfil: #98af11
+    Titulo de formacion: #27187a
+    Titulo de habilidades: #5f9ea0
+    Titulo de contacto: #0d7587
+    Fondo: #d6d0d0
+    Fondo de los campos del contacto: #000000
+*/
+
+/* Titulo principales y secundarios, se agregan los secundarios solamente para que se muestre en cursiva ya que mas adelante se define el color */
+
+/* General, es decir para centrar todos los textos y agrandar un poco la fuente */
+*{
+    text-align: center;
+    font-size: 20px;
+}
+
+h1, h2, h3{
+    font-style: italic;
+    color: rgb(106, 22, 22);
+}
+
+
+/* Personalizacion de las lineas que separan cada apartado de la hoja de vida */
+hr{
+    background-color: rgb(0, 0, 0);
+    height: 3px;
+    width: 100%;
+    border-style: double;
+}
+
+/* Aqui se modifica el apartado de perfil */
+.perfil{
+    color: rgb(153, 176, 17);
+
+}
+
+/* FORMACION */
+.formacion{
+    color: rgb(39, 24, 123);
+}
+
+/* HABILIDADES */
+.habilidades{
+    color:rgb(96, 157, 159);
+}
+
+/* CONTACTO */
+
+.contacto{
+
+    color: rgb(13, 117, 135);
+
+}
+
+/* FONDO DE LA PAGINA Y TIPOGRAFIA EN GENERAL, ADEMAS DE LA MARGEN DE LA PAGINA*/
+body{
+    font-family: "Share Tech", sans-serif;
+    background-color: rgb(214, 208, 208);
+    margin: 0 350px;
+}
+
+/* Foto */
+
+#fotoPerfil{
+    border-radius: 100%;
+    border: 4px solid black;
+}
+
+/* Texto del telefono */
+
+#telefono{
+    background-color: rgb(3, 3, 3);
+    color: white;
+}
+
+/* CORREO */
+
+#correo{
+    text-decoration:none;
+    background-color: black;
+    color: white;
+}
+
+/* Para editar los hipervinculos */
+a{
+    color:white;
+    text-decoration: none;
+}
+
+/* Personalizar el campo de ciudad */
+#ciudad{
+    background-color: rgb(0, 0, 0);
+    color: white;
+}
+
+/* Editar el titulo para visitar el sitio web del sena */
+h3{
+    color: rgb(172, 118, 19);
+}
+
+/* Se modifica el font del "ClICK AQUI" para dirigirse a la web del sena */
+#sitio{
+    color: black;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+ul, ol{
+    list-style: none;
+}

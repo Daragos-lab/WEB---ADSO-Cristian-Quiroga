@@ -1,0 +1,60 @@
+hr{
+    background-color: darkorange;
+    height: 5px;
+    width: 50%;
+    border-style: double;
+}
+
+h1{
+    color: rgb(161, 16, 16);
+    font-size: 2.5rem;
+    
+}
+
+body{
+    font-family: "Isometra", serif;
+}
+
+/* Punto cuando es clase */
+.destacado{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+    font-style: italic;
+
+    font-size: 30px;
+
+    background-color: grey;
+}
+
+
+
+/* Numeral # cuando es ID */
+
+#estudio{
+    background-color: rgb(8, 8, 8);
+    color: aquamarine;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.sen {
+  font-size: 1.2rem;
+  font-style: italic;
+}
+
+#portada {
+  border: 4px solid #6f4e37;
+  border-radius: 12px;
+}
+
+
+nav a{
+    text-decoration: none;
+    color: green;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+h2, h3, h4{
+    color: tomato;
+    font-weight: 600;
+}
